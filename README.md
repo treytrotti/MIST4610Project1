@@ -1,7 +1,15 @@
 # MIST4610 Project 1 Group 7
 
 ## Group Members: 
-[Justus Nour](https://github.com/justusnour), [Jackson Boyer](https://github.com/Jackson9812), [Rong Xin Hu](https://github.com/RongX02), [Trey Trotti](https://github.com/treytrotti), [Sophie Yoo](https://github.com/sophieyoo)
+1. [Justus Nour](https://github.com/justusnour)
+
+2. [Jackson Boyer](https://github.com/Jackson9812)
+   
+3. [Rong Xin Hu](https://github.com/RongX02)
+
+4. [Trey Trotti](https://github.com/treytrotti)
+
+5. [Sophie Yoo](https://github.com/sophieyoo)
 
 
 ## Scenario Description: 
@@ -124,6 +132,19 @@ The following Data Dictionary defines the attributes, data types, and key design
 | room_availability | Room availability status (vacant/occupied) | VARCHAR      | 45   |        |         |
 
 
+## Database Table
+
+| **Feature**               | **Query 1** | **Query 2** | **Query 3** | **Query 4** | **Query 5** | **Query 6** | **Query 7** | **Query 8** | **Query 9** | **Query 10** |
+|----------------------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|--------------|
+| **multiple table join**    | X           | X           | X           | X           | X           | X           | X           | X           | X           | X            |
+| **subquery**               |             |             |             | X           |             |             |             |             |             |              |
+| **GROUP BY**               | X           |             |             |             | X           |             |             |             | X           | X            |
+| **GROUP BY with HAVING**   |             |             |             |             | X           |             |             |             |             |              |
+| **multi-condition WHERE**  | X           | X           | X           | X           | X           | X           | X           | X           | X           | X            |
+| **built-in functions**     | X           | X           | X           | X           | X           | X           | X           | X           | X           | X            |
+| **REGEXP**                 | X           |             |             |             |             |             |             |             |             |              |
+
+
 ## SQL Queries
 
 ### Simple Queries
@@ -197,7 +218,7 @@ Query 10 shows which doctors write the most prescriptions per patient on average
 ## Database information:
 Name of the database: ns_Group7 
 
-Additional information: Each query written above is marked in the database using a stored procedure written by me which can be called using this  format: CALL JN_Q1;
+Additional information: Each query written above is marked in the database using a stored procedure written by me which can be called using this  format: CALL TP_Q1;
 
 To call the others, replace Q1 with Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9 OR Q10.
 
